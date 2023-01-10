@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: relative;
+    width: 100%;
+    Height: 80vh;
+    background: linear-gradient(90deg, #f94626, #f02328); 
+    overflow: hidden;
+    z-index: 2;
+}
+header nav{
+    width: 63%;
+    Height: 13%;
+    border: 1px solid#fff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav .logo{
+    width: 110px;
+    height: 40px;
+}
+header nav .ul_user{
+    display: flex;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header nav ul li{
+   list-style-type: none;
+   padding: 5px 0px 5px 25px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all, 1s ease-in-out;
+ }
+ header nav ul li a:hover{
+    color: #ffe91e;
+ }
+ header nav .user{
+    display: flex;
+    align-items: center;
+ }
+ header nav .user li{
+    list-style-type: none;
+    margin-left: 20px;
+ }
+header nav .user li a{
+   position: relative;
+   color: #fff;
+   font-size: 12px;
+   font-weight: 500;
+   transition: all .1s ease-in-out;
+}
+header nav .user li a:hover{
+    color: #ffe91e;
+}
+header nav .user li a img{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 3px 4px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0.5);
+    transition: all is ease-in-out;
+}
+header nav .user li a:hover img{
+filter: hue-rotate(360deg);
+}
+
+header section{
+    width: 63%;
+    height: 87%;
+    margin: auto;
+    /* border: 1px solid #fff; */
+    display: flex;
+}
+header section .left_content_slide , .right_food_slide{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #fff; */
+    color: #fff;
+    font-weight: 900;
+}
+
+header section .left_content_slide h1{
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 70px;
+}
+header section .left_content_slide p{
+    font-size: 12px;
+    font-size: 400;
+    margin: 20px 0px;
+    color: rgb(240, 240, 240);
+}
+header section .left_content_slide button{
+    padding: 8px 50px;
+    border: 2px solid#fff;
+    border-radius: 20px;
+    color: #fff;
+    background: none;
+    outline: none;
+    font-family: 'poppins' , sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 5px 12px rgb(0, 0, 0.5);
+    transition: all .3s ease-in-out;
+}
+
+header section .left_content_slide button{
+    box-shadow: inset 5px 5px 8px rgb(0, 0, 0.4);
+}
+header section .left_content_slide .dots{
+    display: flex;
+    margin-top: 50px;
+}
+header section .left_content_slide .dots h6{
+    width: 15px;
+    height: 6px;
+    border-radius: 10px;
+    background: #fa9b93;
+    margin-right: spx;
+    transition: all .3s ease-in-out;
+}
+header section .right_food_slide{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+header section .right_food_slide img{
+    position: absolute;
+    top: -10;
+}
+
+header .circle1{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: #f8381e;
+    top: 100px;
+    border-radius: 50%;
+    left: 15%;
+    z-index: -1;
+}
+header .ring1{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: none;
+    border: 20ox solid #fa5731;
+    top: -55px;
+    border-radius: 50%;
+    left: 45%;
+    z-index: -1;
+}
+header .ring2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: none;
+    border: 30px solid #f9482f;
+    border-radius: 50%;
+    left: -3%;
+    bottom: -35px;
+    z-index: -1;
+}
+header .ring3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: none;
+    border: 70px solid #e5100d;
+    border-radius: 50%;
+    top: -23%;
+    right: -15%;
+    z-index: -1;
+}
+header .red_box{
+    position: absolute;
+    width: 500px;
+    height: 900px;
+    background: linear-gradient(0deg, #d91213, #f82724);
+    border-radius: 70%;
+    top: 300px;
+    left: 70%;
+    transform: rotate(50deg);
+    z-index: -1;
+}
